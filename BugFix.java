@@ -1,17 +1,16 @@
 import java.util.ArrayList;
+	import java.util.Arrays;
 	import java.util.Collections;
 	import java.util.Scanner;
-
 public class BugFix {
 	
-	
 
+	
 		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-	        System.out.println("Hello World!");
-	        System.out.println("\n******\n");
+	        /*System.out.println("Hello World!");*/
+	        System.out.println("\n**************\n");
 	        System.out.println("\tWelcome to TheDesk \n");
-	        System.out.println("******");
+	        System.out.println("**************");
 	        optionsSelection();
 
 	    }
@@ -116,8 +115,7 @@ public class BugFix {
 	        }
 	        
 	        System.out.println("\n");
-
-		}
-
+	       
+	    }
 	}
 
