@@ -1,26 +1,13 @@
-<html>
-    <head>
-        <title>Spring With Hibernate</title>
-    </head>
-    <body>
-    <h3>Product List </h3>
-    <c:if  test="${!empty productList}">
-    <table class="data">
-    <tr>
-        <th>Name</th>
-        <th>Price</th>
-        <th>Date Added</th>
-    </tr>
-    <c:forEach items="${productList}" var="product">
-        <tr>
-            <td>${product.name} </td>
-            <td>${product.price}</td>
-            <td>${product.date_added}</td>
-        </tr>
-    </c:forEach>
-    </table>
-    </c:if>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RoutingMechanism</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+</body>
 </html>
-
-
